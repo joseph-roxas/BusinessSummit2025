@@ -1,0 +1,242 @@
+.message-section {
+  background: #013a63;
+  backdrop-filter: blur(10px);
+  padding: 2rem 0;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.message-card {
+  background: #274c77;
+  padding: 2.5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Top Section: Photo + Title */
+.message-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.message-photo {
+  flex-shrink: 0;
+}
+
+.photo-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  background: #8b8c89;
+}
+
+.message-title {
+  flex: 1;
+  text-align: left;
+}
+
+.message-title h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.message-title h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Bottom Section: Actual Message */
+.message-text {
+  color: #e8e8e8;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.message-text h4 {
+  color: #ffd700;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.message-text h5 {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem 0;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  border-left: 3px solid #ffd700;
+}
+
+.message-text p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+.message-text p:last-of-type {
+  margin-bottom: 0;
+}
+
+.signature {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 2.5rem 0 0.5rem 0;
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.signature-name {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.signature-name strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* iPhone and mobile */
+@media (max-width: 768px) {
+  .message-section {
+    padding: 1rem 0;
+  }
+  
+  .message-card {
+    padding: 1.5rem;
+  }
+  
+  .message-header {
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .photo-image {
+    width: 150px;
+    height: 180px;
+  }
+  
+  .message-title {
+    text-align: center;
+  }
+  
+  .message-title h3 {
+    font-size: 1.3rem;
+  }
+  
+  .message-title h4 {
+    font-size: 1.1rem;
+  }
+  
+  .message-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  
+  .message-text h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .message-text h5 {
+    font-size: 1.1rem;
+    margin: 1.8rem 0 0.8rem 0;
+  }
+  
+  .message-text p {
+    text-align: left;
+  }
+  
+  .signature {
+    font-size: 1.1rem;
+    margin: 2rem 0 0.5rem 0;
+  }
+}
+
+/* For very small iPhones */
+@media (max-width: 480px) {
+  .message-card {
+    padding: 1.2rem;
+  }
+  
+  .message-header {
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .photo-image {
+    width: 130px;
+    height: 160px;
+  }
+  
+  .message-title h3 {
+    font-size: 1.2rem;
+  }
+  
+  .message-title h4 {
+    font-size: 1rem;
+  }
+  
+  .message-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .message-text h4 {
+    font-size: 1.1rem;
+  }
+  
+  .message-text h5 {
+    font-size: 1rem;
+    margin: 1.5rem 0 0.7rem 0;
+  }
+  
+  .signature {
+    font-size: 1rem;
+    margin: 1.8rem 0 0.5rem 0;
+  }
+  
+  .signature-name {
+    font-size: 0.9rem;
+  }
+}
+
+/* Animation for message cards */
+.message-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.message-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(255, 215, 0, 0.2);
+}

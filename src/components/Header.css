@@ -1,0 +1,161 @@
+.header {
+  padding: 0rem 0rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+/* Top logos container - Always in same row */
+.top-logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 0rem;
+  flex-wrap: nowrap;
+  min-height: 240px;
+}
+
+/* Logo with label */
+.logo-with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.logo-with-label h3 {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.top-logo {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1px;
+  flex-shrink: 0;
+}
+
+/* Title section */
+.title-section {
+  text-align: center;
+}
+
+.title-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  line-height: 1.2;
+}
+
+.title-line-1,
+.title-line-2 {
+  display: block;
+}
+
+.title-line-1 {
+  font-size: 2.2rem;
+}
+
+.title-line-2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.theme {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-top: 1rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .top-logos-container {
+    gap: 2rem;
+  }
+  
+  .logo-with-label h3 {
+    font-size: 1rem;
+  }
+  
+  .top-logo {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .title-section h1 {
+    font-size: 2rem;
+  }
+  
+  .title-line-1 {
+    font-size: 1.8rem;
+  }
+  
+  .title-line-2 {
+    font-size: 2rem;
+  }
+  
+  .theme {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-logos-container {
+    gap: 1rem;
+    min-height: 220px;
+    margin-bottom: -1rem;
+  }
+  
+  .logo-with-label h3 {
+    font-size: 0.9rem;
+  }
+  
+  .top-logo {
+    width: 140px;
+    height: 140px;
+    padding: 0px;
+  }
+  
+  .title-section h1 {
+    font-size: 2.0rem;
+  }
+  
+  .title-line-1 {
+    font-size: 2.0rem;
+  }
+  
+  .title-line-2 {
+    font-size: 2.0rem;
+  }
+  
+  .theme {
+    font-size: 1rem;
+  }
+}
+
+/* For very small screens, ensure they stay in same row */
+@media (max-width: 360px) {
+  .top-logos-container {
+    gap: 0.5rem;
+  }
+  
+  .logo-with-label h3 {
+    font-size: 0.8rem;
+  }
+  
+  .top-logo {
+    width: 60px;
+    height: 60px;
+  }
+}

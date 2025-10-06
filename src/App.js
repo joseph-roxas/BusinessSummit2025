@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import SplashScreen from './components/SplashScreen';
+import Header from './components/Header';
+import MessageSection from './components/MessageSection';
+import Speakers from './components/Speakers';
+import ProgramFlow from './components/ProgramFlow';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showSplash) {
+    return <SplashScreen />;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <MessageSection />
+      <Speakers />
+      <ProgramFlow />
+      <Footer />
     </div>
   );
 }

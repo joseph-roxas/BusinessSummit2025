@@ -1,0 +1,168 @@
+.speakers-section {
+  background: #013a63;
+  backdrop-filter: blur(10px);
+  padding: 2rem 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #ffd700;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: relative;
+  text-align: center;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #ffd700, transparent);
+}
+
+/* EXACT SAME as message-container */
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* EXACT SAME as message-card */
+.speaker-card {
+  background: #274c77;
+  padding: 2.5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* EXACT SAME as message-header */
+.speaker-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.speaker-photo {
+  flex-shrink: 0;
+}
+
+.speaker-photo .photo-placeholder {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background: #8b8c89;
+  border: 2px solid #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* EXACT SAME as message-title */
+.speaker-title {
+  flex: 1;
+  text-align: left;
+}
+
+.speaker-title h3 {
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.speaker-title h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* EXACT SAME hover effect as message cards */
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(255, 215, 0, 0.2);
+}
+
+/* Mobile Responsive - Same as message cards */
+@media (max-width: 768px) {
+  .speakers-section {
+    padding: 1rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .speaker-card {
+    padding: 1.5rem;
+  }
+  
+  .speaker-header {
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .speaker-photo .photo-placeholder {
+    width: 150px;
+    height: 180px;
+  }
+  
+  .speaker-title {
+    text-align: center;
+  }
+  
+  .speaker-title h3 {
+    font-size: 1.3rem;
+  }
+  
+  .speaker-title h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .speaker-card {
+    padding: 1.2rem;
+  }
+  
+  .speaker-header {
+    gap: 1rem;
+  }
+  
+  .speaker-photo .photo-placeholder {
+    width: 130px;
+    height: 160px;
+  }
+  
+  .speaker-title h3 {
+    font-size: 1.2rem;
+  }
+  
+  .speaker-title h4 {
+    font-size: 1rem;
+  }
+}

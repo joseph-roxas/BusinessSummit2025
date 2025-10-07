@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SplashScreen from './components/SplashScreen';
 import Header from './components/Header';
-import MessageSection from './components/MessageSection';
+/*import MessageSection from './components/MessageSection';*/
 import Speakers from './components/Speakers';
 import ProgramFlow from './components/ProgramFlow';
 import Footer from './components/Footer';
@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MessageSection />
+      {/*<MessageSection />*/}
       <Speakers />
       <ProgramFlow />
       <Footer />

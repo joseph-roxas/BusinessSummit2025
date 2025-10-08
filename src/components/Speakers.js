@@ -3,21 +3,21 @@ import './Speakers.css';
 
 const Speakers = () => {
   const speakers = [
-    { 
-      name: "Roxan L. Mujeres", 
-      role: "Acting Head - Bangko Sentral ng Pilipinas",
-      photo: null
-    },
-    { 
-      name: "PLDT Enterprise Representative", 
-      role: "SME Programs: Digital Adaptation; AI for MSMEs",
-      photo: null
-    },
-    { 
-      name: "Metrobank Representative", 
-      role: "Empowering SMEs through Financial Products",
-      photo: null
-    },
+    // { 
+    //   name: "Roxan L. Mujeres", 
+    //   role: "Acting Head - Bangko Sentral ng Pilipinas",
+    //   photo: null
+    // },
+    // { 
+    //   name: "PLDT Enterprise Representative", 
+    //   role: "SME Programs: Digital Adaptation; AI for MSMEs",
+    //   photo: null
+    // },
+    // { 
+    //   name: "Metrobank Representative", 
+    //   role: "Empowering SMEs through Financial Products",
+    //   photo: null
+    // },
     { 
       name: "Atty. Genevieve D. Deiparine", 
       role: "BCBP - Financial Stewardship",

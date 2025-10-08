@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import SplashScreen from './components/SplashScreen';
 import Header from './components/Header';
+import LocationDateTime from './components/LocationDateTime'; // Add this import
 /*import MessageSection from './components/MessageSection';*/
 import Speakers from './components/Speakers';
 import ProgramFlow from './components/ProgramFlow';
+import Sponsors from './components/Sponsors';
+import RegistrationSection from './components/RegistrationSection';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -25,9 +28,12 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <LocationDateTime /> {/* Add this component */}
       {/*<MessageSection />*/}
       <Speakers />
       <ProgramFlow />
+      <Sponsors />
+      <RegistrationSection />
       <Footer />
     </div>
   );

@@ -22,6 +22,22 @@ const Sponsors = () => {
         { src: "/images/sponsors/toyota.png", alt: "Toyota Cebu", width: "250px" },
         { src: "/images/sponsors/island.png", alt: "Island Paints", width: "250px" }
       ]
+    },
+    { 
+      name: "", 
+      role: "Bronze Sponsors",
+      customLogos: [ // Array of logos with individual widths
+        { src: "/images/sponsors/bronze/act.jpg", alt: "ACT", width: "250px" },
+        { src: "/images/sponsors/bronze/bella.png", alt: "Bella", width: "250px" },
+        { src: "/images/sponsors/bronze/bethel.jpg", alt: "Bethel", width: "250px" },
+        { src: "/images/sponsors/bronze/bonace.jpg", alt: "Bonace", width: "250px" },
+        { src: "/images/sponsors/bronze/molave.jpg", alt: "Molave", width: "250px" },
+        { src: "/images/sponsors/bronze/outsource.png", alt: "OutsourceIt", width: "250px" },
+        { src: "/images/sponsors/bronze/q.png", alt: "Super Q", width: "250px" },
+        { src: "/images/sponsors/bronze/rnc.png", alt: "RNC", width: "250px" },
+        { src: "/images/sponsors/bronze/roxas.png", alt: "Roxas Bldg.", width: "250px" },
+        { src: "/images/sponsors/bronze/siomai.png", alt: "Misis Siomai", width: "250px" }
+      ]
     }
   ];
 

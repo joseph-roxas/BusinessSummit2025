@@ -37,7 +37,10 @@ const Header = () => {
           <div className="title-line-1">1st Talisay City</div>
           <div className="title-line-2">Business Summit 2025</div>
         </h1>
-        <h2 className="theme">"MOVING BEYOND SURVIVAL, RISING TO GREATNESS!"</h2>
+        <div className="slogan-container">
+          <h2 className="theme slogan-left">MOVING BEYOND SURVIVAL,</h2>
+          <h2 className="theme slogan-right">RISING TO GREATNESS!</h2>
+        </div>
       </div>
     </header>
   );

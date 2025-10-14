@@ -32,6 +32,16 @@ const Speakers = () => {
       name: "Mr. Carlo Alex Lopez", 
       role: "Founder and Proprietor of Uncle Brew",
       photo: "/images/speakers/carlo.png"
+    },
+    { 
+      name: "Adolfo \"Butch\" Laudit III", 
+      role: "Senior Relationship Manager, Metrobank Merchant Acquiring Services",
+      photo: "/images/speakers/laudit.jpg"
+    },
+    { 
+      name: "Mr.  Ian Mark Anthony C. Tee", 
+      role: "Bangko Sentral ng Pilipinas, Bank Officer IV, Regional Economic Affairs Staff, Visayas Regional Office",
+      photo: "/images/speakers/tee.jpg"
     }
   ];
 

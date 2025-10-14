@@ -34,7 +34,7 @@ const Header = () => {
       {/* Title Section */}
       <div className="title-section">
         <h1>
-          <div className="title-line-1">1st Talisay City</div>
+          <div className="title-line-1">1st City of Talisay</div>
           <div className="title-line-2">Business Summit 2025</div>
         </h1>
         <div className="slogan-container">

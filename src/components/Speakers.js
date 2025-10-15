@@ -54,9 +54,19 @@ const Speakers = () => {
       photo: "/images/speakers/menjares.jpg"
     },
     { 
+      name: "Mr. Jason O. Sialana", 
+      role: "Negosyo Center Business Counselor - City of Carcar",
+      photo: "/images/speakers/sialana.jpg"
+    },
+    { 
       name: "Ms. Jinky Francisco", 
       role: "PLDT Enterprise Business Head, SME Group Visayas",
       photo: "/images/speakers/francisco.jpg"
+    },
+    { 
+      name: "Ms. Janille Rose Gultiano", 
+      role: "Stakeholder Management Specialist",
+      photo: "/images/speakers/gultiano.jpg"
     }
   ];
 

@@ -187,3 +187,31 @@
     font-size: 1rem;
   }
 }
+
+/* Make vertical stacking the default */
+.sponsor-header {
+  display: flex;
+  flex-direction: column;   /* <- always column */
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+/* Center titles by default since we're stacking */
+.sponsor-title {
+  text-align: center;
+}
+
+/* Ensure logos behave like blocks and center nicely */
+.sponsor-logo .logo-image {
+  display: block;
+  margin: 0 auto;
+}
+
+/* For entries with multiple logos: stack them vertically too */
+.sponsor-multiple-logos {
+  display: flex;
+  flex-direction: column;   /* vertical stack */
+  align-items: center;
+  gap: 12px;
+}

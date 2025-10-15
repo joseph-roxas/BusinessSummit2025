@@ -17,7 +17,7 @@ const Sponsors = () => {
     },
     { 
       name: "Toyota Talisay City, Island Paints, Cabilan Apartments, Metropolitan Bank and Trust Company", 
-      role: "Silver Sponsor",
+      role: "Silver Sponsors",
       customLogos: [ // Array of logos with individual widths
         { src: "/images/sponsors/toyota.png", alt: "Toyota Cebu", width: "250px" },
         { src: "/images/sponsors/island.png", alt: "Island Paints", width: "250px" },

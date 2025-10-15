@@ -16,11 +16,12 @@ const Sponsors = () => {
       logoStyle: { width: "180px" }
     },
     { 
-      name: "Toyota Talisay City, Island Paints, Cabilan Apartments", 
+      name: "Toyota Talisay City, Island Paints, Cabilan Apartments, Metropolitan Bank and Trust Company", 
       role: "Silver Sponsor",
       customLogos: [ // Array of logos with individual widths
         { src: "/images/sponsors/toyota.png", alt: "Toyota Cebu", width: "250px" },
-        { src: "/images/sponsors/island.png", alt: "Island Paints", width: "250px" }
+        { src: "/images/sponsors/island.png", alt: "Island Paints", width: "250px" },
+        { src: "/images/sponsors/metrobank.png", alt: "Metrobank", width: "250px" }
       ]
     },
     { 

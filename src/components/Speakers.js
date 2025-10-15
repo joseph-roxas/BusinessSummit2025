@@ -55,7 +55,7 @@ const Speakers = () => {
     },
     { 
       name: "Mr. Jason O. Sialana", 
-      role: "Negosyo Center Business Counselor - City of Carcar",
+      role: "DTI Negosyo Center Business Counselor - City of Carcar",
       photo: "/images/speakers/sialana.jpg"
     },
     { 
@@ -65,7 +65,7 @@ const Speakers = () => {
     },
     { 
       name: "Ms. Janille Rose Gultiano", 
-      role: "Stakeholder Management Specialist",
+      role: "Stakeholder Management Specialist with PLDT and Smart\'s Public Engagement and Corporate Communications Group",
       photo: "/images/speakers/gultiano.jpg"
     }
   ];

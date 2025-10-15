@@ -24,6 +24,11 @@ const Speakers = () => {
       photo: "/images/speakers/genevieve.png"
     },
     { 
+      name: "Atty. Sydrick Jose Andrei “Syd” G. Deiparine", 
+      role: "Lawyer, Professor, and a Licensed Real Estate Broker. Senior Partner of Dumdum Legorio & Deiparine Law Firm",
+      photo: "/images/speakers/syd.jpg"
+    },
+    { 
       name: "Mr. Terence Padrique", 
       role: "Founder and CEO of Lemon Co.",
       photo: "/images/speakers/terence.jpg"
@@ -34,7 +39,7 @@ const Speakers = () => {
       photo: "/images/speakers/carlo.png"
     },
     { 
-      name: "Adolfo \"Butch\" Laudit III", 
+      name: "Mr. Adolfo \"Butch\" Laudit III", 
       role: "Senior Relationship Manager, Metrobank Merchant Acquiring Services",
       photo: "/images/speakers/laudit.jpg"
     },
@@ -42,6 +47,11 @@ const Speakers = () => {
       name: "Mr.  Ian Mark Anthony C. Tee", 
       role: "Bangko Sentral ng Pilipinas, Bank Officer IV, Regional Economic Affairs Staff, Visayas Regional Office",
       photo: "/images/speakers/tee.jpg"
+    },
+    { 
+      name: "Mr.  Neil Menjares", 
+      role: "Chief Economic Development Specialist of the Policy Formulation and Planning Division at the Department of Economy, Planning, and Development Regional Office VII",
+      photo: "/images/speakers/menjares.jpg"
     }
   ];
 

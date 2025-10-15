@@ -52,6 +52,11 @@ const Speakers = () => {
       name: "Mr.  Neil Menjares", 
       role: "Chief Economic Development Specialist of the Policy Formulation and Planning Division at the Department of Economy, Planning, and Development Regional Office VII",
       photo: "/images/speakers/menjares.jpg"
+    },
+    { 
+      name: "Ms. Jinky Francisco", 
+      role: "PLDT Enterprise Business Head, SME Group Visayas",
+      photo: "/images/speakers/francisco.jpg"
     }
   ];
 

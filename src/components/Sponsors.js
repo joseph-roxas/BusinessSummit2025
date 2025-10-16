@@ -16,12 +16,13 @@ const Sponsors = () => {
       logoStyle: { width: "180px" }
     },
     { 
-      name: "Toyota Talisay City, Island Paints, Cabilan Apartments, Metropolitan Bank and Trust Company", 
+      name: "Cabilan Apartments", 
       role: "Silver Sponsors",
       customLogos: [ // Array of logos with individual widths
         { src: "/images/sponsors/toyota.png", alt: "Toyota Cebu", width: "250px" },
         { src: "/images/sponsors/island.png", alt: "Island Paints", width: "250px" },
-        { src: "/images/sponsors/metrobank.png", alt: "Metrobank", width: "250px" }
+        { src: "/images/sponsors/metrobank.png", alt: "Metrobank", width: "250px" },
+        { src: "/images/sponsors/bronze/bethel.jpg", alt: "Bethel", width: "250px" },
       ]
     },
     { 
@@ -30,7 +31,6 @@ const Sponsors = () => {
       customLogos: [ // Array of logos with individual widths
         { src: "/images/sponsors/bronze/act.jpg", alt: "ACT", width: "250px" },
         { src: "/images/sponsors/bronze/bella.png", alt: "Bella", width: "250px" },
-        { src: "/images/sponsors/bronze/bethel.jpg", alt: "Bethel", width: "250px" },
         { src: "/images/sponsors/bronze/bonace.jpg", alt: "Bonace", width: "250px" },
         { src: "/images/sponsors/bronze/molave.jpg", alt: "Molave", width: "250px" },
         { src: "/images/sponsors/bronze/outsource.png", alt: "OutsourceIt", width: "250px" },

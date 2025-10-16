@@ -8,7 +8,6 @@ import Speakers from './components/Speakers';
 import ProgramFlow from './components/ProgramFlow';
 import Sponsors from './components/Sponsors';
 import RegistrationSection from './components/RegistrationSection';
-import PostEvaluation from './components/PostEvaluation';
 import Footer from './components/Footer';
 import './App.css';
 

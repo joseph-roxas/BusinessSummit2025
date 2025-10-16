@@ -37,7 +37,8 @@ const Sponsors = () => {
         { src: "/images/sponsors/bronze/q.png", alt: "Super Q", width: "250px" },
         { src: "/images/sponsors/bronze/rnc.png", alt: "RNC", width: "250px" },
         { src: "/images/sponsors/bronze/roxas.png", alt: "Roxas Bldg.", width: "250px" },
-        { src: "/images/sponsors/bronze/siomai.png", alt: "Misis Siomai", width: "250px" }
+        { src: "/images/sponsors/bronze/siomai.png", alt: "Misis Siomai", width: "250px" },
+        { src: "/images/sponsors/bronze/peoples.png", alt: "People's Educational Supply", width: "250px" }
       ]
     }
   ];
